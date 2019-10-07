@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: lighter;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.lotties {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .lotties {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+.lottieleft {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.bottomleft {
+  position: absolute;
+  left: 2%;
+  bottom: 5%;
+  width: 25%;
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+.topright {
+  position: absolute;
+  right: 2%;
+  top: 5%;
+  width: 20%;
+  animation-duration: 3s;
+}
+
+.bottomright {
+  position: absolute;
+  right: 2%;
+  bottom: 5%;
+  width: 20%;
+  animation-duration: 5s;
+}
+
+.delay1 {
+  animation-delay: 1s;
+}
+.delay2 {
+  animation-delay: 2s;
+}
+.delay3 {
+  animation-delay: 3s;
+}
+.delay4 {
+  animation-delay: 4s;
+}
+.delay5 {
+  animation-delay: 5s;
+}
+
+.overlayDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.3;
+  transition: opacity 200ms ease-in-out;
+  border-radius: 4px;
+  margin: -15px 0 0 -15px;
+  width: 95%;
+  font-size: 8rem;
+  height: 60%;
+}
+div.ReactTags__suggestions {
+  width: 100%;
+}
+div.ReactTags__suggestions ul {
+  list-style-type: none;
+  box-shadow: 0.05em 0.01em 0.5em rgba(0, 0, 0, 0.2);
+  background: white;
+  width: 100%;
+}
+div.ReactTags__suggestions li {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin-left: -35px;
+}
+div.ReactTags__suggestions li mark {
+  text-decoration: underline;
+  background: none;
+  font-weight: 600;
+}
+div.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+  background: #b7cfe0;
+  cursor: pointer;
+}
+
+.card-deck {
+  column-count: 4;
+}
