@@ -54,19 +54,6 @@ class Home extends Component {
         
         <br />
         <br />
-
-        <footer className="footer">
-        <div className="container">
-          <a
-            class="btn btn-warning btn-block"
-            href="https://www.reactriot.com/entries/19-purple-bit/vote"
-            target="_blank"
-          >
-            Vote for Us
-          </a>
-        </div>
-      </footer>
-      <br />
       </div>
     );
   }
